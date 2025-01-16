@@ -92,7 +92,7 @@ function HomePage() {
           you.
         </p>
       </section>
-      <Principles />
+      {/* <Principles /> */}
     </motion.div>
   );
 }
