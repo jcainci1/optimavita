@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6d131d1d.css",
+    "main.js": "/static/js/main.2b549d22.js",
+    "static/media/fatih-kgqu_qs3B78-unsplash.jpg": "/static/media/fatih-kgqu_qs3B78-unsplash.2473a8d2c8d359ffd218.jpg",
+    "static/media/painted hand.jpg": "/static/media/painted hand.0e07d738a1e25479a98a.jpg",
+    "static/media/jene-stephaniuk--MCrF6hnojU-unsplash.jpg": "/static/media/jene-stephaniuk--MCrF6hnojU-unsplash.362fa703915e3d9f4139.jpg",
+    "static/media/katrina-wright-yMg_SMqfoRU-unsplash.jpg": "/static/media/katrina-wright-yMg_SMqfoRU-unsplash.5069a8dac43d116d1a98.jpg",
+    "static/media/khadeeja-yasser-FHT0KEOwtyg-unsplash.jpg": "/static/media/khadeeja-yasser-FHT0KEOwtyg-unsplash.3ea89e44ff238d5ecaa4.jpg",
+    "static/media/pregnant_belly.jpg": "/static/media/pregnant_belly.13d107339364550332a0.jpg",
+    "static/media/happy balloons.jpg": "/static/media/happy balloons.5bc589474e3b875a01b6.jpg",
+    "static/media/full_icon_adjacent_phone.svg": "/static/media/full_icon_adjacent_phone.fb27c59e66cade4afcc38fdbac38df53.svg",
+    "static/media/full_icon_adjacent.svg": "/static/media/full_icon_adjacent.f3ddd1f5fe2cb8baeb2460aef54d4ff3.svg",
+    "static/media/logo_company_adjacent.svg": "/static/media/logo_company_adjacent.f9879e7cce577e6caa4518316b664c85.svg",
+    "static/media/logo_icon.svg": "/static/media/logo_icon.d180f915ecf9a8c68a9a7b1bf8b1bcc5.svg",
+    "static/media/chooseyou_img_2.png": "/static/media/chooseyou_img_2.9b1563a4bc9ee93c3bd9.png",
+    "static/media/doing_my_best.jpg": "/static/media/doing_my_best.58a302da57d4a903ab9e.jpg",
+    "static/media/chooseyou-mission-img.svg": "/static/media/chooseyou-mission-img.c8e36a24555650e02bd1e1918b42776d.svg",
+    "index.html": "/index.html",
+    "static/media/chooseyou-hamburger-menu.svg": "/static/media/chooseyou-hamburger-menu.824054ee395831af03b566ad1753222e.svg",
+    "static/media/home_principles_stress_icon.svg": "/static/media/home_principles_stress_icon.053128804cfd454c0f9b3fd2a380ef95.svg",
+    "static/media/home_principles_rest_icon.svg": "/static/media/home_principles_rest_icon.36dc5bbedfb6cf8f68c98c5019de0a89.svg",
+    "static/media/home_principles_food_icon.svg": "/static/media/home_principles_food_icon.c8856383a7c046ff490ff89de198a7dd.svg",
+    "static/media/home_principles_exercise_icon.svg": "/static/media/home_principles_exercise_icon.349ca569f4f4273f8e270f157d56cc3e.svg",
+    "main.6d131d1d.css.map": "/static/css/main.6d131d1d.css.map",
+    "main.2b549d22.js.map": "/static/js/main.2b549d22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d131d1d.css",
+    "static/js/main.2b549d22.js"
+  ]
+}

@@ -1,0 +1,8 @@
+.aboutBody {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.aboutHeader {
+  color: var(--color-primary-500);
+}

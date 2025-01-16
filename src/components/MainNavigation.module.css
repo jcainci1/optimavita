@@ -1,0 +1,313 @@
+@media (max-width: 1000px) {
+  .headerMain {
+    display: flex;
+    overflow: hidden;
+    height: 5rem;
+    position: relative;
+  }
+  .header_1 {
+    overflow: hidden;
+    height: 80px;
+
+    width: 100vw;
+    position: fixed;
+    z-index: 9;
+    /* background-color: #eb0f8897; */
+    background-color: var(--color-secondary-1000);
+  }
+
+  .navContainer {
+    background-color: var(--color-secondary-1000);
+    /* position: fixed; */
+    display: flex;
+    overflow: hidden;
+
+    height: 100%;
+  }
+
+  .listContainer {
+    /* visibility: hidden; */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-right: auto;
+  }
+
+  .listContainerActive {
+    visibility: visible;
+    display: flex;
+  }
+
+  .listOuter {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    z-index: 10;
+    background-color: rgba(250, 242, 237, 0.9);
+    /* background-color: grey; */
+    /* opacity: 1; */
+    filter: blur(100px);
+    transition: ease-in-out 0.3;
+  }
+
+  .listLineBreak {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 61%;
+    width: 2px;
+    background-color: var(--color-secondary-1000);
+  }
+
+  .navLogoContainer {
+    width: 100%;
+  }
+
+  .navLogo {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    margin: 0 auto;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    padding: 10% 2%;
+    background-color: white;
+    margin-left: auto;
+    text-align: right;
+    border-left: 2px solid var(--color-secondary-1000);
+
+    width: 40%;
+    height: 100%;
+    margin-left: 60%;
+    position: fixed;
+    z-index: 10;
+    /* display: none; */
+  }
+
+  .listElement {
+    text-align: right;
+    width: 100%;
+  }
+  .listElement a {
+    width: fit-content;
+    margin: 2rem auto 0 auto;
+    transition: ease 0.3s;
+  }
+  .list a {
+    display: flex;
+    text-decoration: none;
+    color: var(--color-primary-900);
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    text-shadow: 0.5px 0.5px 0.5px var(--color-secondary-text-shadow);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-align: right;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .list a:hover,
+  .list a.active {
+    text-shadow: 0.5px 0.5px 0.5px var(--color-secondary-text-shadow);
+  }
+  .list a:focus {
+    outline: none !important;
+  }
+
+  .list a.active {
+    text-shadow: none;
+    color: var(--color-primary-700);
+  }
+
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 5%;
+  }
+
+  .logo {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .menuContainer {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-right: 5%;
+    margin-left: auto;
+  }
+
+  .menu {
+    display: flex;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .menu:focus {
+    outline: none !important;
+  }
+
+  .login {
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--color-quarciary-900);
+    padding: 0.35rem 0.7rem;
+    margin-top: 1rem;
+    margin: 2rem auto 0 auto;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+  }
+}
+
+@media (min-width: 1000px) {
+  .headerMain {
+    display: flex;
+    overflow: hidden;
+    height: 5.52rem;
+    position: relative;
+  }
+  .header_1 {
+    /* max-width: 60rem; */
+    /* padding: 3rem 6rem 3rem 6rem; */
+    display: flex;
+    overflow: hidden;
+
+    /* margin: auto; */
+    justify-content: space-between;
+    background-color: var(--color-secondary-1000);
+    z-index: 10;
+  }
+
+  .navContainer {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    height: 4rem;
+    position: fixed;
+    background-color: var(--color-secondary-1000);
+    z-index: 9;
+    transition: ease 0.3s;
+  }
+  .navContainer:hover {
+    background-color: var(--color-secondary-1000);
+  }
+
+  .listContainer {
+    display: flex;
+    margin-left: 0;
+  }
+
+  .list {
+    display: flex;
+    margin: auto auto auto 1rem;
+
+    gap: 3rem;
+    align-items: center;
+
+    padding-right: 2rem;
+  }
+
+  .logoContainer {
+    display: flex;
+    margin: auto 1rem;
+  }
+
+  .list a {
+    display: flex;
+
+    text-decoration: none;
+    color: var(--color-primary-1000);
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1.3px;
+    /* text-shadow: 0.5px 0.5px 0.5px var(--color-primary-text-shadow); */
+    padding: 0.5rem 0.3rem 0.5rem 0.3rem;
+    font-weight: 500;
+  }
+
+  .list a:hover,
+  .list a.active {
+    text-shadow: 10px 10px 25px var(--color-primary-text-shadow),
+      -10px 10px 25px #469d701f, -10px -10px 25px #367e5918,
+      10px -10px 25px #469d701a;
+  }
+
+  .list a.active {
+    color: var(--color-primary-600);
+  }
+
+  .logo {
+    display: flex;
+    width: 190px;
+    margin: 1rem;
+    align-items: center;
+  }
+
+  .calendly {
+    min-width: 320px;
+    height: 700px;
+    display: flex;
+    position: absolute;
+  }
+
+  .signupContainer {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 2rem;
+  }
+  .login {
+    display: relative;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-weight: 500;
+    font-size: 15px;
+
+    color: var(--color-primary-900);
+    transition: ease 0.3s;
+    letter-spacing: 1.2px;
+  }
+
+  /* The underline effect */
+  .login::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px; /* Thickness of the underline */
+    background-color: var(--color-primary-400); /* Color of the underline */
+    letter-spacing: 2px;
+    transition: width 0.3s ease; /* Smooth transition */
+    margin-bottom: 2px; /* Adds space between text and underline */
+  }
+
+  /* Hover state */
+  .login:hover::after {
+    width: 100%; /* Full width on hover */
+  }
+}
