@@ -14,6 +14,8 @@ import Avatar11 from "../pages/assets/painted hand.jpg";
 import { ReactComponent as Logo } from "./assets/chooseyou-mission-img.svg";
 import classes from "./Home.module.css";
 import Principles from "../components/Principles";
+import MissionStatement from "../components/MissionStatement";
+import Header from "../components/Header";
 import { motion, AnimatePresence } from "framer-motion";
 // import PageContent from "../components/PageContent";
 
@@ -56,43 +58,16 @@ function HomePage() {
   };
   return (
     <motion.div className={classes.homeBody}>
+      <Header />
       <div className={classes.logoContainer}>
-        {matches ? (
+        {/* {matches ? (
           <img className={classes.logo} src={Avatar1} />
         ) : (
           <img className={classes.logo} src={Avatar2} />
-        )}
+        )} */}
       </div>
-      <section>
-        <h2 className={classes.homeHeader}>Mission statement</h2>
-        <p>
-          At OptimaVita, we believe that true health is not just the absence of
-          illness, but the presence of vitality, energy, and balance in every
-          aspect of life. We are a wellness and longevity consulting company
-          dedicated to helping individuals restore, optimize, and maintain their
-          health through the power of functional medicine.
-        </p>
-        <p>
-          Our mission is simple: to guide you on your journey toward peak
-          wellness. Whether you're looking to enhance your fitness or overcome
-          challenges like obesity, our holistic approach integrates personalized
-          nutrition, sleep optimization, exercise strategies, and stress
-          reduction techniques to create a path to long-lasting health.
-        </p>
-        <p>
-          What sets OptimaVita apart is our unwavering commitment to your unique
-          needs. Our highly attentive consulting and coaching services are
-          designed to provide tailored support and guidance, ensuring you
-          receive the best care at every step. We focus on the root causes of
-          health issues and work with you to develop a sustainable plan for a
-          healthier, more vibrant life.
-        </p>
-        <p>
-          Join us at OptimaVita, and take the first step toward an optimized
-          you.
-        </p>
-      </section>
-      {/* <Principles /> */}
+      <Principles />
+      <MissionStatement />
     </motion.div>
   );
 }

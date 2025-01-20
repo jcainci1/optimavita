@@ -6,7 +6,7 @@ import AboutPage from "./pages/About";
 import ServicesPage from "./pages/Services";
 import ResourcesPage from "./pages/Resources";
 import ContactPage from "./pages/Contact";
-import LifeCoachingPage from "./pages/LifeCoaching";
+import IntakeFormPage from "./pages/IntakeForm";
 // import ScrollToTop from "./ScrollToTop";
 import LoginPage from "./pages/Login";
 
@@ -29,13 +29,11 @@ const router = createBrowserRouter([
       { path: "resources", element: <ResourcesPage /> },
       { path: "contact", element: <ContactPage /> },
       { path: "login", element: <LoginPage /> },
+      { path: "intake-form", element: <IntakeFormPage /> },
+
       {
         path: "yoga",
         element: <YogaPage />,
-      },
-      {
-        path: "/coaching",
-        element: <LifeCoachingPage />,
       },
     ],
   },

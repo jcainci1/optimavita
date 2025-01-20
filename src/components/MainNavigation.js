@@ -1,9 +1,9 @@
 import React, { useState, useContext, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import { NavLink, Form, useRouteLoaderData } from "react-router-dom";
-import Avatar1 from "./assets/logo_company_adjacent.svg";
-import Avatar2 from "./assets/chooseyou-hamburger-menu.svg";
-import Avatar3 from "./assets/logo_icon.svg";
+import Avatar1 from "./assets/logo_company_adjacent.png";
+import Avatar2 from "./assets/chooseyou-hamburger-menu.png";
+import Avatar3 from "./assets/logo_icon.png";
 
 import { NavContext } from "./NavContext";
 import {

@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 import classes from "./Footer.module.css";
-import Avatar1 from "./assets/logo_icon.svg";
+import Avatar1 from "./assets/logo_icon.png";
 
 function Footer() {
   return (
