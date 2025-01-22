@@ -1,6 +1,7 @@
 import classes from "./About.module.css";
 import Avatar1 from "./assets/graphic_action.png";
-import Avatar2 from "./assets/IMG_0101.JPG";
+import Avatar3 from "./assets/IMG_0101.JPG";
+import Avatar2 from "./assets/IMG_1896.jpg";
 import React, { useState, useContext, useEffect } from "react";
 
 function AboutPage() {
@@ -136,11 +137,29 @@ function AboutPage() {
             </p>
           </>
         )}
-
-        <p>
-          Let’s work together to transform your health and unlock the vibrant,
-          energized life you deserve.
-        </p>
+        {!matches ? (
+          <div className={classes.aboutPic3OuterContainer}>
+            <div className={classes.aboutPic3Container}>
+              <img className={classes.aboutPic3} src={Avatar3} />
+              <div className={classes.aboutPic3b} />
+            </div>
+            <p>
+              Let’s work together to transform your health and unlock the
+              vibrant, energized life you deserve.
+            </p>
+          </div>
+        ) : (
+          <div className={classes.aboutPic3OuterContainer}>
+            <div className={classes.aboutPic3Container}>
+              <img className={classes.aboutPic3} src={Avatar3} />
+              <div className={classes.aboutPic3b} />
+            </div>
+            <p>
+              Let’s work together to transform your health and unlock the
+              vibrant, energized life you deserve.
+            </p>
+          </div>
+        )}
       </section>
     </div>
   );

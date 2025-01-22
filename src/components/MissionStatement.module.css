@@ -568,6 +568,11 @@
   /* max-height: calc((685px * 0.4333) + 685px); */
 }
 
+.missionSection {
+  height: max-content;
+  border: 2px solid var(--color-primary-300);
+}
+
 @media (max-width: 800px) {
   .missionSection {
     height: max-content;
