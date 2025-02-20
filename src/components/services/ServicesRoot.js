@@ -79,7 +79,7 @@ import ServicesJSON from "../data/services.json";
 function ServicesRoot(props) {
   //   useEffect(() => {
   const homeCardOptions = ServicesJSON.services.map((e, ind) => {
-    // console.log(e);
+    console.log(e);
     if (props.id == e.section) {
       console.log(props.id);
       return (

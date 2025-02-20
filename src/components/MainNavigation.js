@@ -123,13 +123,13 @@ function MainNavigation() {
                 </motion.li> */}
                   <motion.li className={classes.listElement}>
                     <NavLink
-                      to="/resources"
+                      to="/media"
                       className={({ isActive }) =>
                         isActive ? classes.active : undefined
                       }
                       onClick={navMenu}
                     >
-                      Resources
+                      Media
                     </NavLink>
                   </motion.li>
                   <NavLink
@@ -232,13 +232,13 @@ function MainNavigation() {
                 </motion.li> */}
                     <motion.li className={classes.listElement}>
                       <NavLink
-                        to="/resources"
+                        to="/media"
                         className={({ isActive }) =>
                           isActive ? classes.active : undefined
                         }
                         onClick={navMenu}
                       >
-                        Resources
+                        Media
                       </NavLink>
                     </motion.li>
                   </motion.ul>

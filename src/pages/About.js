@@ -3,6 +3,20 @@ import Avatar1 from "./assets/graphic_action.png";
 import Avatar3 from "./assets/IMG_0101.JPG";
 import Avatar2 from "./assets/IMG_1896.jpg";
 import React, { useState, useContext, useEffect } from "react";
+import { motion } from "framer-motion";
+
+// Lazy load images
+const LazyImage = ({ src, alt, className }) => (
+  <motion.img
+    className={className}
+    src={src}
+    alt={alt}
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ duration: 1 }}
+    loading="lazy"
+  />
+);
 
 function AboutPage() {
   const [matches, setMatches] = useState(
@@ -14,13 +28,18 @@ function AboutPage() {
       .matchMedia("(min-width: 1000px)")
       .addEventListener("change", (e) => setMatches(e.matches));
   }, []);
+
   return (
     <div className={classes.aboutBody}>
       <section>
         <h1 className={classes.aboutHeader}>About</h1>
         <div className={classes.aboutInnerPicture}>
           <div className={classes.aboutPic2Container}>
-            <img className={classes.aboutPic} src={Avatar1} />
+            <LazyImage
+              className={classes.aboutPic}
+              src={Avatar1}
+              alt="Avatar 1"
+            />
             <div className={classes.aboutPicb} />
           </div>
           <div className={classes.aboutInnerPictureText}>
@@ -86,7 +105,7 @@ function AboutPage() {
               limits and achieve peak performance. During this time, my passion
               for nutrition and wellness continued to grow, leading me to
               amplify my knowledge and begin sharing it with others to help them
-              achieve their optimal health, both on and off the court
+              achieve their optimal health, both on and off the court.
             </p>
             {matches && (
               <>
@@ -112,7 +131,11 @@ function AboutPage() {
             )}
           </div>
           <div className={classes.aboutPic2Container}>
-            <img className={classes.aboutPic2} src={Avatar2} />
+            <LazyImage
+              className={classes.aboutPic2}
+              src={Avatar2}
+              alt="Avatar 2"
+            />
             <div className={classes.aboutPic2b} />
           </div>
         </div>
@@ -137,29 +160,25 @@ function AboutPage() {
             </p>
           </>
         )}
-        {!matches ? (
-          <div className={classes.aboutPic3OuterContainer}>
-            <div className={classes.aboutPic3Container}>
-              <img className={classes.aboutPic3} src={Avatar3} />
-              <div className={classes.aboutPic3b} />
-            </div>
-            <p>
-              Let’s work together to transform your health and unlock the
-              vibrant, energized life you deserve.
-            </p>
+        <motion.div
+          className={classes.aboutPic3OuterContainer}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          <div className={classes.aboutPic3Container}>
+            <LazyImage
+              className={classes.aboutPic3}
+              src={Avatar3}
+              alt="Avatar 3"
+            />
+            <div className={classes.aboutPic3b} />
           </div>
-        ) : (
-          <div className={classes.aboutPic3OuterContainer}>
-            <div className={classes.aboutPic3Container}>
-              <img className={classes.aboutPic3} src={Avatar3} />
-              <div className={classes.aboutPic3b} />
-            </div>
-            <p>
-              Let’s work together to transform your health and unlock the
-              vibrant, energized life you deserve.
-            </p>
-          </div>
-        )}
+          <p>
+            Let’s work together to transform your health and unlock the vibrant,
+            energized life you deserve.
+          </p>
+        </motion.div>
       </section>
     </div>
   );

@@ -41,7 +41,7 @@ input[type="reset"] {
   transition: all 0.2s ease-in;
   white-space: nowrap;
   margin-top: 0;
-  font-size: 12px;
+  font-size: 12px !important;
 }
 
 .button:hover,
