@@ -2,21 +2,12 @@
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-<<<<<<< HEAD
   margin: auto;
-=======
-  margin: 0.5rem auto auto auto;
-  font-size: 13px;
->>>>>>> 6cf45cfed (second commit)
 }
 
 @media (max-width: 1000px) {
   .container {
-<<<<<<< HEAD
     margin: 20% auto 30% auto;
-=======
-    margin: 0.5rem auto 30% auto;
->>>>>>> 6cf45cfed (second commit)
   }
 }
 
@@ -38,11 +29,7 @@
 }
 
 .navigationContainer li {
-<<<<<<< HEAD
   padding: 1rem;
-=======
-  padding: 0.5rem;
->>>>>>> 6cf45cfed (second commit)
   text-decoration: none;
   color: var(--color-primary-800);
 }
@@ -87,22 +74,12 @@
 }
 
 @media (max-width: 605px) {
-<<<<<<< HEAD
-=======
-  .logo {
-    width: 3rem;
-  }
->>>>>>> 6cf45cfed (second commit)
   .navigation {
     display: flex;
     flex-direction: column;
     min-width: 365px;
   }
   .navigationContainer {
-<<<<<<< HEAD
-=======
-    margin-top: 0.5rem;
->>>>>>> 6cf45cfed (second commit)
     width: 100%;
   }
 
@@ -114,76 +91,3 @@
     text-align: center;
   }
 }
-<<<<<<< HEAD
-=======
-
-/* Modal overlay styles */
-.modalOverlay {
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7); /* Darken overlay */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-/* Modal content styles */
-.modalContent {
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  max-width: 600px; /* Make the modal more appropriate for smaller screens */
-  width: 90%; /* Allow the modal to be responsive */
-  position: relative;
-  text-align: center;
-  overflow: auto;
-  max-height: 90%; /* Ensure the content stays within the viewport */
-  box-sizing: border-box;
-}
-
-/* Close button */
-.closeButton {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 5px;
-}
-
-.closeIcon {
-  width: 20px;
-  height: 20px;
-}
-
-.closeButton:hover {
-  opacity: 0.7;
-}
-
-/* Basic modal styling */
-.modalContent h2 {
-  margin-bottom: 20px;
-}
-
-.modalContent p {
-  margin-bottom: 20px;
-}
-
-.modalContent button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.modalContent button:hover {
-  background-color: #0056b3;
-}
->>>>>>> 6cf45cfed (second commit)
