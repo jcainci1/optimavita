@@ -101,6 +101,7 @@ function MissionStatement() {
                   <motion.div
                     className={`${classes.aboutMeModalP} ${classes.aboutMeModalP1}`}
                   >
+<<<<<<< HEAD
                     {/* <section>
         <h2 className={classes.homeHeader}>Mission statement</h2>
         <p>
@@ -130,6 +131,8 @@ function MissionStatement() {
           you.
         </p>
       </section> */}
+=======
+>>>>>>> 6cf45cfed (second commit)
                     At OptimaVita, we believe that true health is not just the
                     absence of illness, but the presence of vitality, energy,
                     and balance in every aspect of life. We are a wellness and

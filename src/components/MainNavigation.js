@@ -123,13 +123,21 @@ function MainNavigation() {
                 </motion.li> */}
                   <motion.li className={classes.listElement}>
                     <NavLink
+<<<<<<< HEAD
                       to="/resources"
+=======
+                      to="/media"
+>>>>>>> 6cf45cfed (second commit)
                       className={({ isActive }) =>
                         isActive ? classes.active : undefined
                       }
                       onClick={navMenu}
                     >
+<<<<<<< HEAD
                       Resources
+=======
+                      Media
+>>>>>>> 6cf45cfed (second commit)
                     </NavLink>
                   </motion.li>
                   <NavLink
@@ -232,13 +240,21 @@ function MainNavigation() {
                 </motion.li> */}
                     <motion.li className={classes.listElement}>
                       <NavLink
+<<<<<<< HEAD
                         to="/resources"
+=======
+                        to="/media"
+>>>>>>> 6cf45cfed (second commit)
                         className={({ isActive }) =>
                           isActive ? classes.active : undefined
                         }
                         onClick={navMenu}
                       >
+<<<<<<< HEAD
                         Resources
+=======
+                        Media
+>>>>>>> 6cf45cfed (second commit)
                       </NavLink>
                     </motion.li>
                   </motion.ul>

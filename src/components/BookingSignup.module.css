@@ -10,16 +10,28 @@ input[type="reset"] {
   font: inherit;
   cursor: pointer;
   font-weight: 500;
+<<<<<<< HEAD
   background-color: var(--color-quarciary-900);
+=======
+  background-color: var(--color-sextiary-900);
+>>>>>>> 6cf45cfed (second commit)
   outline: inherit;
   border: 1px solid var(--color-quarciary-200);
   padding: 0.35rem 0.7rem;
   font-weight: 600;
+<<<<<<< HEAD
   border-radius: 2px;
   transition: all 0.2s ease-in;
   white-space: nowrap;
   margin: 2rem auto 0 auto;
   font-size: 12px;
+=======
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+  margin: 2rem auto 0 auto;
+  font-size: 10px;
+>>>>>>> 6cf45cfed (second commit)
 }
 
 .buttonBlank {
@@ -45,7 +57,11 @@ input[type="reset"] {
 
 .button:hover,
 .button:active {
+<<<<<<< HEAD
   background-color: var(--color-quarciary-700);
+=======
+  background-color: var(--color-sextiary-800);
+>>>>>>> 6cf45cfed (second commit)
   transition: all 0.2s ease-in;
   box-shadow: 2px 2px 1px var(--color-primary-box-shadow);
   text-shadow: 10px 10px 25px var(--color-primary-text-shadow),
@@ -66,7 +82,12 @@ input[type="reset"] {
     height: 100%;
     margin: auto;
     padding: 0.25rem 0.85rem;
+<<<<<<< HEAD
     font-size: 15px;
+=======
+    font-size: 12px;
+    letter-spacing: 2px;
+>>>>>>> 6cf45cfed (second commit)
     font-weight: 500;
   }
   .buttonBlank {

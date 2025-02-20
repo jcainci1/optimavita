@@ -1,0 +1,6 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  margin: 10% auto 0 3rem;
+  width: 2rem;
+}

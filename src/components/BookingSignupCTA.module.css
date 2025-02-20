@@ -46,7 +46,12 @@ input[type="reset"] {
 
 .button:hover,
 .button:active {
+<<<<<<< HEAD
   background-color: var(--color-quadiary-900);
+=======
+  background-color: var(--color-quadiary-800);
+
+>>>>>>> 6cf45cfed (second commit)
   transition: all 0.2s ease-in;
   box-shadow: 2px 2px 1px var(--color-primary-box-shadow);
   text-shadow: 10px 10px 25px var(--color-primary-text-shadow),

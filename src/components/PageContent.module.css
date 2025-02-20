@@ -10,3 +10,19 @@
 .contentHeader {
   color: var(--color-primary-900);
 }
+<<<<<<< HEAD
+=======
+
+.copyButton {
+  width: 1.2rem;
+  cursor: pointer;
+}
+
+.locationNameContainer {
+  display: flex;
+}
+
+.locationName {
+  margin-right: 0.4rem;
+}
+>>>>>>> 6cf45cfed (second commit)

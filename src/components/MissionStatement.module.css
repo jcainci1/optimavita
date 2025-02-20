@@ -4,8 +4,13 @@
 
 .missionSection {
   margin: 1rem 4rem;
+<<<<<<< HEAD
   background-color: #e3caaa22;
   padding: 3rem 4rem;
+=======
+  /* background-color: #e3caaa22; */
+  padding: 1.9rem 2.8rem;
+>>>>>>> 6cf45cfed (second commit)
   border-radius: 2rem;
 }
 
@@ -22,7 +27,11 @@
 }
 
 .homeHeader {
+<<<<<<< HEAD
   color: var(--color-primary-1000);
+=======
+  color: var(--color-septiary-800);
+>>>>>>> 6cf45cfed (second commit)
 }
 
 .img_1 {
@@ -62,9 +71,12 @@
 
 .infoSectionTextContainer_3 {
   border-radius: 4px;
+<<<<<<< HEAD
   background-color: #00eeff28;
 
   /* background-color: #00eeff48; */
+=======
+>>>>>>> 6cf45cfed (second commit)
 }
 
 .infoSectionParagraphContainer_3 {
@@ -451,13 +463,21 @@
   display: block;
   background: none;
   color: var(--color-white);
+<<<<<<< HEAD
   background-color: var(--color-primary-1000);
+=======
+  background-color: var(--color-sextiary-700);
+>>>>>>> 6cf45cfed (second commit)
   letter-spacing: 1.2px;
   border: none;
   font: inherit;
   cursor: pointer;
   outline: inherit;
+<<<<<<< HEAD
   border: 1px solid var(--color-primary-1000);
+=======
+  border: 1px solid var(--color-primary-300);
+>>>>>>> 6cf45cfed (second commit)
   padding: 0.35rem 0.6rem;
   font-weight: 600;
   border-radius: 5px;
@@ -469,6 +489,12 @@
   cursor: pointer;
   transition: ease 0.3s;
   outline: none;
+<<<<<<< HEAD
+=======
+  padding: 0.5rem 0.9rem;
+  font-size: 12px;
+
+>>>>>>> 6cf45cfed (second commit)
   -webkit-tap-highlight-color: transparent;
 }
 .buttonAbout:hover {
@@ -581,6 +607,16 @@
     padding: 1rem 2rem;
     border: 2px solid var(--color-primary-300);
   }
+<<<<<<< HEAD
+=======
+  .buttonAbout {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    border-radius: 5px;
+  }
+>>>>>>> 6cf45cfed (second commit)
 }
 
 @media (min-width: 535px) {
@@ -662,11 +698,14 @@
     font-size: 1.1rem;
     font-weight: 400;
   }
+<<<<<<< HEAD
   .buttonAbout {
     font-size: 1rem;
     padding: 2.5% 5%;
     border-radius: 10px;
   }
+=======
+>>>>>>> 6cf45cfed (second commit)
 }
 
 @media (min-width: 710px) {
@@ -690,10 +729,18 @@
     line-height: 2.1rem;
   }
   .buttonAbout {
+<<<<<<< HEAD
     font-size: 1.1rem;
     font-weight: 400;
     padding: 0.75rem 1.4rem;
     border-radius: 10px;
+=======
+    /* font-size: 1.1rem; */
+
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 0.5rem 0.9rem;
+>>>>>>> 6cf45cfed (second commit)
   }
 }
 

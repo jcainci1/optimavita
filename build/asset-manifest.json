@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/static/css/main.c70459f5.css",
     "main.js": "/static/js/main.767c2f6f.js",
     "static/media/fatih-kgqu_qs3B78-unsplash.jpg": "/static/media/fatih-kgqu_qs3B78-unsplash.2473a8d2c8d359ffd218.jpg",
@@ -13,6 +14,14 @@
     "static/media/full_icon_adjacent.svg": "/static/media/full_icon_adjacent.f3ddd1f5fe2cb8baeb2460aef54d4ff3.svg",
     "static/media/chooseyou_img_2.png": "/static/media/chooseyou_img_2.9b1563a4bc9ee93c3bd9.png",
     "static/media/doing_my_best.jpg": "/static/media/doing_my_best.58a302da57d4a903ab9e.jpg",
+=======
+    "main.css": "/static/css/main.bb90a0b1.css",
+    "main.js": "/static/js/main.80643f7a.js",
+    "static/media/IMG_1896.jpg": "/static/media/IMG_1896.f5b03ae603f4feb33181.jpg",
+    "static/media/Instagram_icon.png": "/static/media/Instagram_icon.db2612bd586501d9ed3e.png",
+    "static/media/full_icon_adjacent_phone.svg": "/static/media/full_icon_adjacent_phone.fb27c59e66cade4afcc38fdbac38df53.svg",
+    "static/media/full_icon_adjacent.svg": "/static/media/full_icon_adjacent.f3ddd1f5fe2cb8baeb2460aef54d4ff3.svg",
+>>>>>>> 6cf45cfed (second commit)
     "static/media/IMG_0101.JPG": "/static/media/IMG_0101.2ecd363479efa3b75fcc.JPG",
     "static/media/graphic_action.png": "/static/media/graphic_action.a0e748cd6c68925d92c3.png",
     "static/media/logo_icon.png": "/static/media/logo_icon.165b9e03878fae48f9eb.png",
@@ -21,6 +30,7 @@
     "static/media/healthy.svg": "/static/media/healthy.9f70da967ff59f87364a51f8ed67f9fd.svg",
     "static/media/bed.svg": "/static/media/bed.cc3299cf54be79481b3e323b589a7b12.svg",
     "static/media/chooseyou-hamburger-menu.png": "/static/media/chooseyou-hamburger-menu.fa7ecf68365d92ddc656.png",
+<<<<<<< HEAD
     "static/media/chooseyou-mission-img.svg": "/static/media/chooseyou-mission-img.c8e36a24555650e02bd1e1918b42776d.svg",
     "static/media/meditations.svg": "/static/media/meditations.0b9379e25c15e5b963cc84a834ac3658.svg",
     "static/media/bracketRight.svg": "/static/media/bracketRight.8674040074cdc4b5385ad8d5a6c4b0e6.svg",
@@ -32,5 +42,29 @@
   "entrypoints": [
     "static/css/main.c70459f5.css",
     "static/js/main.767c2f6f.js"
+=======
+    "static/media/subscription_schedule_icon.svg": "/static/media/subscription_schedule_icon.57d1d3d20e10919b15d98b61e933e089.svg",
+    "static/media/chooseyou-mission-img.svg": "/static/media/chooseyou-mission-img.c8e36a24555650e02bd1e1918b42776d.svg",
+    "static/media/subscription_calendar_icon.svg": "/static/media/subscription_calendar_icon.0e600bfbbd692bf2b0bec77adb36ab14.svg",
+    "static/media/meditations.svg": "/static/media/meditations.0b9379e25c15e5b963cc84a834ac3658.svg",
+    "static/media/subscription_timeline_icon.svg": "/static/media/subscription_timeline_icon.a38ae6229bf5688d77b6042831b1fd38.svg",
+    "static/media/subscription_policy_icon.svg": "/static/media/subscription_policy_icon.b56b4ce1b34611e13c4380fc9ef11298.svg",
+    "static/media/subscription_age_group_icon.svg": "/static/media/subscription_age_group_icon.3494ea2f2e3c4e853bd451e4da27de35.svg",
+    "static/media/subscription_group_icon.svg": "/static/media/subscription_group_icon.f105605a5e3338c16358863eac5ed249.svg",
+    "static/media/download_pdf.svg": "/static/media/download_pdf.705b8fc38c2e68eaa52cb7bb12b67170.svg",
+    "static/media/popup_icon.svg": "/static/media/popup_icon.2ac20e3719b69fe963f7741d5bb3d388.svg",
+    "static/media/copy.svg": "/static/media/copy.3d82d15631774613be314cdb06bf81c2.svg",
+    "static/media/bracketRight.svg": "/static/media/bracketRight.8674040074cdc4b5385ad8d5a6c4b0e6.svg",
+    "static/media/bracket.svg": "/static/media/bracket.68deebcea2006d4539e9abde88335c3d.svg",
+    "static/media/x.svg": "/static/media/x.8e3aedf9256c4f8d26750a9033e0b9b4.svg",
+    "static/media/subscription_time_icon.svg": "/static/media/subscription_time_icon.80bc2f86ff02877ba0dcfef3df087ff0.svg",
+    "index.html": "/index.html",
+    "main.bb90a0b1.css.map": "/static/css/main.bb90a0b1.css.map",
+    "main.80643f7a.js.map": "/static/js/main.80643f7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb90a0b1.css",
+    "static/js/main.80643f7a.js"
+>>>>>>> 6cf45cfed (second commit)
   ]
 }

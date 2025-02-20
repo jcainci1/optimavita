@@ -4,7 +4,11 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HomePage from "./pages/Home";
 import AboutPage from "./pages/About";
 import ServicesPage from "./pages/Services";
+<<<<<<< HEAD
 import ResourcesPage from "./pages/Resources";
+=======
+import MediaPage from "./pages/Media";
+>>>>>>> 6cf45cfed (second commit)
 import ContactPage from "./pages/Contact";
 import IntakeFormPage from "./pages/IntakeForm";
 // import ScrollToTop from "./ScrollToTop";
@@ -26,7 +30,11 @@ const router = createBrowserRouter([
       { index: true, element: <HomePage /> },
       { path: "about", element: <AboutPage /> },
       { path: "services", element: <ServicesPage /> },
+<<<<<<< HEAD
       { path: "resources", element: <ResourcesPage /> },
+=======
+      { path: "media", element: <MediaPage /> },
+>>>>>>> 6cf45cfed (second commit)
       { path: "contact", element: <ContactPage /> },
       { path: "login", element: <LoginPage /> },
       { path: "intake-form", element: <IntakeFormPage /> },
